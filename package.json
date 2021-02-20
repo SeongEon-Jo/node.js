@@ -1,0 +1,28 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.11.17",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeongEon-Jo/node.js.git"
+  },
+  "author": "SeongEon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeongEon-Jo/node.js/issues"
+  },
+  "homepage": "https://github.com/SeongEon-Jo/node.js#readme"
+}
