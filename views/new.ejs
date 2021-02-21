@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>글쓰기 페이지</h1>
+  <form action="/create" method="POST">
+    <input type="text" name="title" placeholder="제목을 입력하세요.">
+    <br>
+    <input type="text" name="writer" placeholder="작성자 이름을 입력하세요.">
+    <br>
+    <textarea name="body" cols="40" rows="10" placeholder="글을 입력하세요."></textarea>
+    <br>
+    <button type="submit">작성하기</button>
+  </form>
+</body>
+</html>
